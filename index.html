@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratiksha Parise - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <style>
+        .profile-img {
+            width: 200px !important;
+            height: 200px !important;
+            object-fit: cover;
+            border: 3px solid var(--primary-color);
+            box-shadow: 0 0 20px rgba(65, 105, 225, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <div class="profile">
+                <div class="profile-circle">
+                    <img src="Pratu.jpeg" alt="Pratiksha Parise">
+                </div>
+                <h2>Pratiksha Parise</h2>
+                <div class="social">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active"><i class="fas fa-home"></i><span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i><span>About Me</span></a></li>
+                    <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i><span>Education</span></a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fas fa-code"></i><span>Skills</span></a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fas fa-project-diagram"></i><span>Projects</span></a></li>
+                    <li><a href="#resume" class="nav-link"><i class="fas fa-file-alt"></i><span>Resume</span></a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i><span>Contact Me</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main class="main">
+            <section id="home" class="section active">
+                <div class="home-content">
+                    <h1>Pratiksha Parise</h1>
+                    <p>I'm <span class="typed-text"></span></p>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="img/Pratu.jpeg" alt="Pratiksha Parise" class="main-profile-img">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="about" class="section">
+                <h2 class="section-title">About</h2>
+                
+                <div class="about-intro">
+                    <h3>Hi, I'm <span class="highlight">Pratiksha Parise!</span></h3>
+                    <p class="about-description">
+                        Passionate Full Stack Developer skilled in building scalable web applications. Experienced in
+                        MERN stack development and various web technologies. Beyond coding, I enjoy exploring new technologies
+                        and contributing to open-source projects. Always eager to innovate and collaborate!
+                    </p>
+                </div>
+
+                <div class="about-details">
+                    <div class="about-image">
+                        <img src="img/Pratu.jpeg" alt="Pratiksha Parise">
+                    </div>
+                    
+                    <div class="details-grid">
+                        <div class="details-column">
+                            <div class="detail-item">
+                                <h4>Name:</h4>
+                                <p>Pratiksha Parise</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h4>Age:</h4>
+                                <p>24</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h4>Occupation:</h4>
+                                <p>Student</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h4>Degree:</h4>
+                                <p>B.Tech in CSE (Pursuing)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="details-column">
+                            <div class="detail-item">
+                                <h4>Phone:</h4>
+                                <p>+91 8007836438</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h4>Email:</h4>
+                                <p>pratikshaparise96@gmail.com</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h4>Nationality:</h4>
+                                <p>Indian</p>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <h4>Hobbies:</h4>
+                                <p>Driving, Music</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-container">
+                    <!-- B.Tech Card -->
+                    <div class="education-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>B.Tech in CSE</h3>
+                        <p>Government Polytechnic Arvi</p>
+                        <p class="edu-year">2021-2024</p>
+                        <p class="edu-status">Pursuing</p>
+                    </div>
+
+                    <!-- Diploma Card -->
+                    <div class="education-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-scroll"></i>
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Diploma in CSE</h3>
+                        <p>Government Polytechnic Arvi</p>
+                        <p class="edu-year">2021-2024</p>
+                        <p class="edu-status">Completed</p>
+                    </div>
+
+                    <!-- 12th Science Card -->
+                    <div class="education-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>HSC</h3>
+                        <p>Model junior Collage Rohana</p>
+                        <p class="edu-year">2021</p>
+                        <p class="edu-status">Completed</p>
+                    </div>
+
+                    <!-- SSC Card -->
+                    <div class="education-card">
+                        <div class="edu-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>SSC</h3>
+                        <p>Model Highschool Rohana</p>
+                        <p class="edu-year">2017</p>
+                        <p class="edu-status">Completed</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="section">
+                <h2 class="section-title">Skills</h2>
+                
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3>Programming & Web</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                                <span>VS Code</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter">
+                                <span>Jupyter</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/32px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Excel">
+                                <span>Excel</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Google_Colaboratory_SVG_Logo.svg/32px-Google_Colaboratory_SVG_Logo.svg.png" alt="Google Colab">
+                                <span>Google Colab</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/32px-New_Power_BI_Logo.svg.png" alt="Power BI">
+                                <span>Power BI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category">
+                        <h3>AI Tools</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/32px-ChatGPT_logo.svg.png" alt="ChatGPT">
+                                <span>ChatGPT</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://www.gstatic.com/lamda/images/favicon_v1_150160cddff7f294ce30.svg" alt="Gemini AI">
+                                <span>Gemini AI</span>
+                            </div>
+                            
+
+                            
+                            <div class="skill-item">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMTJIMzZWMzZIMTJWMTJaIiBmaWxsPSIjMjIyMjIyIi8+PHBhdGggZD0iTTggOEg0MFY0MEg4VjhaIiBzdHJva2U9IiMwMEZGOTkiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==" alt="Blackbox AI">
+                                <span>Blackbox AI</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="https://claude.ai/favicon.ico" alt="Claude">
+                                <span>Claude</span>
+                            </div>
+                            <div class="skill-item">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjQgNEwzOSAxM0wzOSAzMUwyNCA0MEw5IDMxTDkgMTNMMjQgNFoiIGZpbGw9IiM4ODY1RkYiLz48cGF0aCBkPSJNMjQgMTJMMzIgMTdMMzIgMjdMMjQgMzJMMTYgMjdMMTYgMTdMMjQgMTJaIiBmaWxsPSIjRkZGRkZGIi8+PC9zdmc+" alt="Gamma AI">
+                                <span>Gamma AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section">
+                <h2 class="section-title">Projects</h2>
+                <p class="projects-intro">Here are some of my recent projects that showcase my skills and experience.</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Pratiksha251001/portfolio" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Personal Portfolio</h3>
+                            <p>A modern portfolio website built with HTML, CSS, and JavaScript. Features include dark mode, smooth animations, and responsive design.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Responsive</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Task Manager">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Pratiksha251001/task-manager" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Manager App</h3>
+                            <p>A full-stack task management application built with React and Node.js. Features include user authentication, task CRUD operations, and real-time updates.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Express</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Weather App">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Pratiksha251001/weather-app" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Dashboard</h3>
+                            <p>A weather application that provides real-time weather information using OpenWeatherMap API. Features include location search, 5-day forecast, and weather alerts.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>API</span>
+                                <span>CSS</span>
+                                <span>Weather Data</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="E-commerce Website">
+                            <div class="project-overlay">
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Pratiksha251001/ecommerce" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-commerce Platform</h3>
+                            <p>A full-featured e-commerce platform with product catalog, shopping cart, and payment integration. Built with MERN stack and Stripe API.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume" class="section">
+                <h2 class="section-title">My Resume</h2>
+                <p class="resume-intro">Here's a detailed look at my education, skills, and professional experience. Download my resume to learn more!</p>
+                
+                <div class="resume-container">
+                    <div class="resume-preview">
+                        <iframe src="Pratiksha_resume.pdf" class="resume-frame"></iframe>
+                        <div class="resume-overlay">
+                            <a href="Pratiksha_resume.pdf" download class="download-btn">
+                                <i class="fas fa-download"></i>
+                                Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="contact-intro">Have a question or want to collaborate? Feel free to reach out!</p>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Phone</h3>
+                            <p>+91 8007836438</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>pratikshaparise96@gmail.com</p>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Location</h3>
+                            <p>Arvi, Maharashtra, India</p>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <h3>Connect With Me</h3>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/pratiksha-parise-92b929283/" target="_blank" class="social-link">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/Pratiksha251001" target="_blank" class="social-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.instagram.com/parise_pratu_/?hl=en" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://www.youtube.com/@Music_withMe_25" target="_blank" class="social-link">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+    <script>
+        let typed = new Typed('.typed-text', {
+            strings: ['a Software Developer', 'a Creative Coder', 'a Tech Enthusiast'],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+        });
+
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = themeToggle.querySelector('i');
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            if(document.body.classList.contains('dark-theme')) {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+            } else {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+            }
+        });
+
+        // Contact Form Handling
+        document.getElementById('contactForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const submitBtn = e.target.querySelector('.submit-btn');
+            const originalBtnText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            submitBtn.disabled = true;
+
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+
+            try {
+                const response = await fetch('http://localhost:5000/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    alert('Message sent successfully! Thank you for contacting me.');
+                    e.target.reset();
+                } else {
+                    alert(data.message || 'Failed to send message. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again later.');
+            } finally {
+                submitBtn.innerHTML = originalBtnText;
+                submitBtn.disabled = false;
+            }
+        });
+
+        // Application Modal Functions
+        const modal = document.getElementById('applicationModal');
+        const courseTitle = document.getElementById('courseTitle');
+        const courseType = document.getElementById('courseType');
+
+        function openApplicationModal(course) {
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            
+            // Set course title and type
+            switch(course) {
+                case 'btech':
+                    courseTitle.textContent = 'B.Tech in CSE';
+                    break;
+                case 'diploma':
+                    courseTitle.textContent = 'Diploma in CSE';
+                    break;
+                case '12th':
+                    courseTitle.textContent = '12th Science';
+                    break;
+                case 'ssc':
+                    courseTitle.textContent = 'SSC (10th)';
+                    break;
+            }
+            courseType.value = course;
+
+            // Set previous education requirements based on course
+            const prevEduField = document.getElementById('previousEducation');
+            const prevEduLabel = prevEduField.previousElementSibling;
+
+            switch(course) {
+                case 'btech':
+                    prevEduLabel.textContent = 'Previous Education (Diploma/12th)';
+                    prevEduField.placeholder = 'Enter your Diploma or 12th details';
+                    break;
+                case 'diploma':
+                    prevEduLabel.textContent = 'Previous Education (10th)';
+                    prevEduField.placeholder = 'Enter your 10th details';
+                    break;
+                case '12th':
+                    prevEduLabel.textContent = 'Previous Education (10th)';
+                    prevEduField.placeholder = 'Enter your 10th details';
+                    break;
+                case 'ssc':
+                    prevEduLabel.textContent = 'Previous Education (9th)';
+                    prevEduField.placeholder = 'Enter your 9th details';
+                    break;
+            }
+        }
+
+        function closeApplicationModal() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            document.getElementById('applicationForm').reset();
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                closeApplicationModal();
+            }
+        }
+
+        // Handle form submission
+        async function submitApplication(event) {
+            event.preventDefault();
+            
+            const submitBtn = event.target.querySelector('.submit-btn');
+            const originalBtnText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Submitting...';
+            submitBtn.disabled = true;
+
+            const formData = new FormData(event.target);
+            
+            try {
+                const response = await fetch('http://localhost:5000/api/apply', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    alert('Application submitted successfully! We will contact you soon.');
+                    closeApplicationModal();
+                } else {
+                    alert(data.message || 'Failed to submit application. Please try again.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again later.');
+            } finally {
+                submitBtn.innerHTML = originalBtnText;
+                submitBtn.disabled = false;
+            }
+        }
+
+        // Mobile Menu Functionality
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const sidebar = document.getElementById('sidebar');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+            mobileMenuBtn.classList.toggle('active');
+        });
+
+        // Close sidebar when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!sidebar.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+                sidebar.classList.remove('active');
+                mobileMenuBtn.classList.remove('active');
+            }
+        });
+
+        // Section visibility
+        const sections = document.querySelectorAll('.section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                });
+                
+                document.getElementById(targetId).classList.add('active');
+                
+                navLinks.forEach(navLink => {
+                    navLink.classList.remove('active');
+                });
+                
+                link.classList.add('active');
+                
+                if (window.innerWidth <= 768) {
+                    sidebar.classList.remove('active');
+                    mobileMenuBtn.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
